@@ -1,0 +1,16 @@
+# String file for ROCInput plugin
+
+PLUGIN_ROCINPUT
+	EN	ROCInput
+
+PLUGIN_ROCINPUT_DESC
+	EN	ROCInput is a Linux only plugin which enables the use of ROC to route any audio source through the squeezebox server.
+
+ROCIN
+	EN	ROCInput
+
+PLUGIN_ROCINPUT_PAUSESTOP
+	EN	Pause button stops playing. 
+	
+PLUGIN_ROCINPUT_PAUSESTOP_DESC
+	EN	If Enabled - Pause will stop playing of PC audio. On some systems if the PC audio stream is only paused - buffer fill up and error messages may be generated from application such as arecord or ecasound..

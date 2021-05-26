@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<extension>
+	<name>PLUGIN_ROCINPUT</name>
+	<module>Plugins::ROCInput::Plugin</module>
+	<playerMenu>RADIO</playerMenu>
+	<version>0.1</version>
+	<description>PLUGIN_ROCINPUT_DESC</description>
+	<creator>hypfer based on bpa's work</creator>
+	<defaultState>enabled</defaultState>
+	<homepageURL></homepageURL>
+	<optionsURL>plugins/ROCInput/settings/basic.html</optionsURL>
+	<icon>plugins/ROCInput/html/images/rocinput.png</icon>
+	<type>2</type><!-- type=extension -->
+	<targetApplication>
+		<id>Squeezecenter</id>
+		<minVersion>7.3</minVersion>
+		<maxVersion>*</maxVersion>
+	</targetApplication>
+	<targetPlatform>Linux</targetPlatform>
+
+</extension>

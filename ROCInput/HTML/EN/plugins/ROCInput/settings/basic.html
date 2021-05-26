@@ -1,0 +1,10 @@
+[% PROCESS settings/header.html %]
+  [% WRAPPER settingSection %]
+  	[% WRAPPER setting title="PLUGIN_ROCINPUT_PAUSESTOP" desc="PLUGIN_ROCINPUT_PAUSESTOP_DESC" %]
+	    <input type="checkbox" name="pausestop" id="pausestop"
+		[% IF prefs.pausestop == 1%] checked="checked" [% END %] value="1"
+	    />
+	[% END %]
+  [% END %]
+[% PROCESS settings/footer.html %]
+
