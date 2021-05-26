@@ -50,9 +50,8 @@ with no way to recover. Therefore, I had to move the Audio input to another host
 which is why this plugin even exists.
 
 I now have another Raspberry Pi right next to the NAS with this command running to inject the audiostream:
+
 `arecord -d0 -c2 -f S16_LE -r 44100 -twav -D plughw:1,0 | roc-send -vv -s rtp+rs8m:192.168.x.x:10001 -r rs8m:192.168.x.x:10002 -i - -d wav`
 
 And that's about it. This enables me to cast twitch music streams to the whole house.
 Feel free to improve on this.
-
-Also,
